@@ -42,10 +42,18 @@ export const Home = () => {
       <View style={{ flex: 1, padding: 18 }}>
         {filtered.length === 0 ? (
           <View style={styles.emptyState}>
-            <Title style={styles.emptyTitle}>No task added yet</Title>
-            <BodyText style={styles.emptySubtitle}>
-              Click on the Add Task button to start adding tasks.
-            </BodyText>
+            <Title style={styles.emptyTitle}>
+              {filter === "all"
+                ? "No task added yet"
+                : filter === "pending"
+                ? "No Pending Task"
+                : "No Completed Task"}
+            </Title>
+            {filter === "all" && (
+              <BodyText style={styles.emptySubtitle}>
+                Click on the Add Task button to start adding tasks.
+              </BodyText>
+            )}
           </View>
         ) : (
           <FlatList
