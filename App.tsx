@@ -19,10 +19,7 @@ const App = () => (
           contentStyle: { backgroundColor: colors.primary200 },
         }}
       >
-        <Stack.Screen
-          name="Home"
-          component={Home}
-        />
+        <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="TaskDetail" component={TaskDetailScreen} />
       </Stack.Navigator>
     </NavigationContainer>

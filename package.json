@@ -21,7 +21,8 @@
     "react-native": "0.79.5",
     "yup": "^1.7.0",
     "zustand": "^5.0.7",
-    "expo-dev-client": "~5.2.4"
+    "expo-dev-client": "~5.2.4",
+    "react-native-safe-area-context": "5.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
