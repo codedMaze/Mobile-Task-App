@@ -11,6 +11,7 @@ import { useTask } from "@/src/hooks";
 import { TaskItem } from "../components/TaskItem";
 
 export type RootStackParamList = {
+  Home: undefined
   TaskDetail: { task: Task };
 };
 

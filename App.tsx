@@ -20,11 +20,8 @@ const App = () => (
         }}
       >
         <Stack.Screen
-          name="Tasks"
+          name="Home"
           component={Home}
-          options={{
-            title: "Home",
-          }}
         />
         <Stack.Screen name="TaskDetail" component={TaskDetailScreen} />
       </Stack.Navigator>

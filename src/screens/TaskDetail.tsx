@@ -28,9 +28,8 @@ export const TaskDetailScreen: React.FC<Props> = ({ route }) => {
     navigation.setOptions({ title: task.title });
   }, [task]);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     navigation.setOptions({
-      title: routeTask.title,
       headerRight: () => (
         <Ionicons
           name="trash-outline"
@@ -40,6 +39,12 @@ export const TaskDetailScreen: React.FC<Props> = ({ route }) => {
           onPress={confirmDelete}
         />
       ),
+    });
+  }, [navigation]);
+
+  useLayoutEffect(() => {
+    navigation.setOptions({
+      title: routeTask.title,
     });
   }, [navigation]);
 
