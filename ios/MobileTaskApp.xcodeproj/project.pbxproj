@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		1CC87EF2AB8D391BDA3F9D74 /* libPods-MobileTaskApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C55F522F73CBDBFBD832EF6 /* libPods-MobileTaskApp.a */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		AA54F7A18805F565E314CBF4 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDB4C163FD98F53802F955 /* ExpoModulesProvider.swift */; };
+		41C459F1AF1C57AFE75E1596 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A54D94475ED04C9346CB38 /* ExpoModulesProvider.swift */; };
+		9ECF5235E534CE602D516339 /* libPods-MobileTaskApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 872DCBA17D424B4468904E0A /* libPods-MobileTaskApp.a */; };
+		AADDB26D1803BA910BFD9445 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2FEBE1897C577E0102C8BB90 /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		C1F9869C61C5F39D449908D8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 591AE94835DD787159C99A40 /* PrivacyInfo.xcprivacy */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,16 +20,16 @@
 		13B07F961A680F5B00A75B9A /* MobileTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MobileTaskApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MobileTaskApp/Info.plist; sourceTree = "<group>"; };
-		30F42326F67B6428F61FD35D /* Pods-MobileTaskApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileTaskApp.debug.xcconfig"; path = "Target Support Files/Pods-MobileTaskApp/Pods-MobileTaskApp.debug.xcconfig"; sourceTree = "<group>"; };
-		591AE94835DD787159C99A40 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = MobileTaskApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		5C55F522F73CBDBFBD832EF6 /* libPods-MobileTaskApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileTaskApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ACDB4C163FD98F53802F955 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-MobileTaskApp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		2FEBE1897C577E0102C8BB90 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = MobileTaskApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3C80882E0B1F0116B1D3F9D2 /* Pods-MobileTaskApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileTaskApp.release.xcconfig"; path = "Target Support Files/Pods-MobileTaskApp/Pods-MobileTaskApp.release.xcconfig"; sourceTree = "<group>"; };
+		872DCBA17D424B4468904E0A /* libPods-MobileTaskApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileTaskApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = MobileTaskApp/SplashScreen.storyboard; sourceTree = "<group>"; };
-		ACC10920363082FF031E4870 /* Pods-MobileTaskApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileTaskApp.release.xcconfig"; path = "Target Support Files/Pods-MobileTaskApp/Pods-MobileTaskApp.release.xcconfig"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		C4A54D94475ED04C9346CB38 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-MobileTaskApp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MobileTaskApp/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* MobileTaskApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MobileTaskApp-Bridging-Header.h"; path = "MobileTaskApp/MobileTaskApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		F31FF41EE68E01730DF10DA3 /* Pods-MobileTaskApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileTaskApp.debug.xcconfig"; path = "Target Support Files/Pods-MobileTaskApp/Pods-MobileTaskApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC87EF2AB8D391BDA3F9D74 /* libPods-MobileTaskApp.a in Frameworks */,
+				9ECF5235E534CE602D516339 /* libPods-MobileTaskApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				591AE94835DD787159C99A40 /* PrivacyInfo.xcprivacy */,
+				2FEBE1897C577E0102C8BB90 /* PrivacyInfo.xcprivacy */,
 			);
 			name = MobileTaskApp;
 			sourceTree = "<group>";
@@ -62,9 +62,17 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5C55F522F73CBDBFBD832EF6 /* libPods-MobileTaskApp.a */,
+				872DCBA17D424B4468904E0A /* libPods-MobileTaskApp.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36DC906950BEE113EF1875A9 /* MobileTaskApp */ = {
+			isa = PBXGroup;
+			children = (
+				C4A54D94475ED04C9346CB38 /* ExpoModulesProvider.swift */,
+			);
+			name = MobileTaskApp;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -81,8 +89,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				8B863DE591E73465408E4BEB /* Pods */,
-				E8A7C3D24CB698A37DF928C1 /* ExpoModulesProviders */,
+				F473C21BD88C98F84881AA6A /* Pods */,
+				F1C7E051098852405B82C3FF /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -97,24 +105,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B863DE591E73465408E4BEB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				30F42326F67B6428F61FD35D /* Pods-MobileTaskApp.debug.xcconfig */,
-				ACC10920363082FF031E4870 /* Pods-MobileTaskApp.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		972A17791876AD2E5520F423 /* MobileTaskApp */ = {
-			isa = PBXGroup;
-			children = (
-				6ACDB4C163FD98F53802F955 /* ExpoModulesProvider.swift */,
-			);
-			name = MobileTaskApp;
-			sourceTree = "<group>";
-		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,12 +114,22 @@
 			path = MobileTaskApp/Supporting;
 			sourceTree = "<group>";
 		};
-		E8A7C3D24CB698A37DF928C1 /* ExpoModulesProviders */ = {
+		F1C7E051098852405B82C3FF /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				972A17791876AD2E5520F423 /* MobileTaskApp */,
+				36DC906950BEE113EF1875A9 /* MobileTaskApp */,
 			);
 			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		F473C21BD88C98F84881AA6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F31FF41EE68E01730DF10DA3 /* Pods-MobileTaskApp.debug.xcconfig */,
+				3C80882E0B1F0116B1D3F9D2 /* Pods-MobileTaskApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MobileTaskApp" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				39A70EC2E7A5C7FB66EC8D6E /* [Expo] Configure project */,
+				738DE24947EF2E52B7759E7C /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				68319EA2086B0A37760DD6EE /* [CP] Embed Pods Frameworks */,
+				886D3B4BDBBD1ECE38C11D27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				C1F9869C61C5F39D449908D8 /* PrivacyInfo.xcprivacy in Resources */,
+				AADDB26D1803BA910BFD9445 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +240,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		39A70EC2E7A5C7FB66EC8D6E /* [Expo] Configure project */ = {
+		738DE24947EF2E52B7759E7C /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -258,24 +258,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-MobileTaskApp/expo-configure-project.sh\"\n";
-		};
-		68319EA2086B0A37760DD6EE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MobileTaskApp/Pods-MobileTaskApp-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileTaskApp/Pods-MobileTaskApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -315,6 +297,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileTaskApp/Pods-MobileTaskApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		886D3B4BDBBD1ECE38C11D27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileTaskApp/Pods-MobileTaskApp-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileTaskApp/Pods-MobileTaskApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -323,7 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				AA54F7A18805F565E314CBF4 /* ExpoModulesProvider.swift in Sources */,
+				41C459F1AF1C57AFE75E1596 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +332,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30F42326F67B6428F61FD35D /* Pods-MobileTaskApp.debug.xcconfig */;
+			baseConfigurationReference = F31FF41EE68E01730DF10DA3 /* Pods-MobileTaskApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -368,7 +368,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACC10920363082FF031E4870 /* Pods-MobileTaskApp.release.xcconfig */;
+			baseConfigurationReference = 3C80882E0B1F0116B1D3F9D2 /* Pods-MobileTaskApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
