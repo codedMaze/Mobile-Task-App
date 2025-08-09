@@ -4,14 +4,14 @@ import { useNavigation } from "@react-navigation/native";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { Confirm, TaskForm } from "@modal";
 import { loadTasks, saveTasks } from "@store";
-import { FilterTabs, Button } from "@ui";
+import { FilterTabs, Button, Title, BodyText } from "@ui";
 import { StatusType } from "@constants";
 import { Task } from "@types";
 import { useTask } from "@/src/hooks";
 import { TaskItem } from "../components/TaskItem";
 
 export type RootStackParamList = {
-  Home: undefined
+  Home: undefined;
   TaskDetail: { task: Task };
 };
 
@@ -39,24 +39,31 @@ export const Home = () => {
         <FilterTabs status={filter} onChange={setFilter} />
       </View>
 
-      <View style={{ padding: 18, flex: 1 }}>
-        <FlatList
-          data={filtered}
-          keyExtractor={(t) => t.id}
-          renderItem={({ item }) => (
-            <TaskItem
-              key={item.id}
-              task={item}
-              onToggle={() => toggleTask(item.id)}
-              onPress={() =>
-                navigation.navigate("TaskDetail", {
-                  task: item,
-                })
-              }
-            />
-          )}
-        />
+      <View style={{ flex: 1, padding: 18 }}>
+        {filtered.length === 0 ? (
+          <View style={styles.emptyState}>
+            <Title style={styles.emptyTitle}>No task added yet</Title>
+            <BodyText style={styles.emptySubtitle}>
+              Click on the Add Task button to start adding tasks.
+            </BodyText>
+          </View>
+        ) : (
+          <FlatList
+            data={filtered}
+            keyExtractor={(t) => t.id}
+            renderItem={({ item }) => (
+              <TaskItem
+                task={item}
+                onToggle={() => toggleTask(item.id)}
+                onPress={() =>
+                  navigation.navigate("TaskDetail", { task: item })
+                }
+              />
+            )}
+          />
+        )}
       </View>
+
       <View style={{ padding: 16, flexDirection: "row" }}>
         <Button title="Add Task" onPress={() => setEditModalVisible(true)} />
       </View>
@@ -84,5 +91,21 @@ export const Home = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  emptyState: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    paddingHorizontal: 24,
+  },
+  emptyTitle: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 8,
+    textAlign: "center",
+  },
+  emptySubtitle: {
+    fontSize: 16,
+    textAlign: "center",
   },
 });
